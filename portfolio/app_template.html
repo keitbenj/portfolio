@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <title>App Template</title>
+    <style>
+        *{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-width: 600px;
+        }
+        body{
+            background:linear-gradient(180deg, rgb(80, 80, 80) 0%, rgb(10,10,10) 100%);
+        }
+        .flex-container{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+        }
+        .flex-container > div{
+            text-align: center;
+        }
+
+        .heading{
+            color: white;
+        }
+        .main{
+            background-color: rgb(147, 147, 147);
+            height: 800px;
+        }
+
+        .footer{
+            color: white;
+        }
+
+        h1{
+            font-size: 30px;
+        }
+
+        h2{
+            font-size: 25px;
+        }
+        .input{
+            text-align: center;
+        }
+
+        input{
+            color: white;
+            background-color: rgba(35, 35, 35);
+            border: none;
+            height: 50px;
+        }
+        button{
+            color: white;
+            background-color: red;
+            border: none;
+        }
+
+        li{
+            text-align: left;
+        }
+    </style>
+    </head>
+    <body>
+        <section class="flex-container">
+            <div class="heading">
+                <h1>YouTube Video to MP3 Converter</h1>
+            </div>
+
+            <div class="main">
+                <h1>Hi there!</h1>
+                <h2>This is a test for an app layout</h2>
+                <div class="input">
+                    <input type="text" placeholder="Enter URL here...">
+                </div>
+                <button>Convert!</button>
+                <h2>If you enjoy this app, consider making a donation! It helps out a ton!</h2>
+                <ol>
+                    <li>Copy a YouTube video link (right-click -> "Copy link" or CTRL + C)</li>
+                    <li>Paste the link into the field above</li>
+                    <li>Click the convert button</li>
+                    <li>Enjoy!</li>
+                </ol>
+            </div>
+            
+            <div class="footer">
+                <p>Note: Use converted videos for personal use only!</p>
+            </div>
+        </section>
+    </body>    
+</section>
+</html>

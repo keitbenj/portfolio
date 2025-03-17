@@ -1,0 +1,41 @@
+body{
+    min-width: 37.5rem;
+    background: linear-gradient(180deg, rgb(75, 141, 255) 0%, rgb(11, 36, 99) 100%);
+}
+
+.hidden{
+    display: none;
+}
+
+.tabs{
+    background-color: aquamarine;
+    padding: 0.1rem;
+    border: 0.1rem solid white;
+    box-shadow: 0.2rem 0.2em white;
+}
+
+.tabs > ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+section{
+    padding: 1rem;
+}
+
+.showcase{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.showcase div{
+    height: 10rem;
+    width: 10rem;
+    background-color: white;
+    margin: 2rem;
+}
+
+li:hover{
+    color: white;
+}

@@ -1,0 +1,73 @@
+body{
+    background: black;
+    font-family:'Times New Roman', Times, serif;
+    overflow: hidden;
+}
+
+section{
+    position: absolute;
+    padding: 0;
+    background-color: aliceblue;
+    color: red;
+    width: 100vw;
+    height: 15vh;
+    animation: fade-in ease-in 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+section:nth-of-type(1){
+    top: 5em;
+}
+
+section:nth-of-type(2){
+    top: 15em;
+    animation-delay: 1s;
+}
+
+section:nth-of-type(3){
+    top: 25em;
+    animation-delay: 2s;
+}
+
+section:nth-of-type(4){
+    top: 35em;
+    animation-delay: 3s;
+}
+
+section:nth-of-type(5){
+    top: 45em;
+    animation-delay: 4s;
+}
+
+section:nth-of-type(odd){
+    left: 60em;
+}
+
+section:nth-of-type(even){
+    right: 60em;
+}
+
+@keyframes fade-in {
+    0%{
+        opacity: 0.00;
+    }
+    100%{
+        opacity: 1.00;
+    }
+}
+
+span{
+    color: white;
+}
+
+.heading{
+    position: absolute;
+    font-weight: 400;
+    top: -4em;
+}
+
+.heading .letter{
+    display: inline-block;
+}
