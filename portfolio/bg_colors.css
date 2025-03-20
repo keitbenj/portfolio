@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    height: 100vh;
+    background: linear-gradient(to bottom, white, black);
+}
+button {
+    padding: 5px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
